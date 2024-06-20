@@ -1,0 +1,43 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.filters_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.filter {
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.filter:first-child {
+  margin-left: 0;
+}
+
+.filter_activate {
+  background-color: black;
+  color: white;
+}
+
+.img_container {
+  margin: 0 auto;
+  width: 80%;
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.img_item {
+  margin: 10px 0;
+  width: 100%;
+}
